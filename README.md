@@ -22,36 +22,35 @@ These are the two command line tool examples:
     python getall.py
 
 * getstatus - Get the the status of one airport and print to stdout. Usage:
-
     python getstatus.py BDL
-
-    {
-      "status": {
-        "minDelay": "", 
-        "maxDelay": "", 
-        "trend": "", 
-        "reason": "No known delays for this airport.", 
-        "closureEnd": "", 
-        "avgDelay": "", 
-        "closureBegin": "", 
-        "endTime": "", 
-        "type": ""
-      }, 
-      "ICAO": "KBDL", 
-      "name": "Bradley International", 
-      "city": "Windsor Locks", 
-      "IATA": "BDL", 
-      "delay": "false", 
-      "state": "Connecticut", 
-      "weather": {
-        "wind": "Northwest at 3.5mph", 
-        "weather": "Mostly Cloudy", 
-        "meta": {
-          "url": "http://weather.gov/", 
-          "credit": "NOAA's National Weather Service", 
-          "updated": "4:51 PM Local"
+    
+      {
+        "status": {
+          "minDelay": "", 
+          "maxDelay": "", 
+          "trend": "", 
+          "reason": "No known delays for this airport.", 
+          "closureEnd": "", 
+          "avgDelay": "", 
+          "closureBegin": "", 
+          "endTime": "", 
+          "type": ""
         }, 
-        "temp": "40.0 F (4.4 C)", 
-        "visibility": 10.0
+        "ICAO": "KBDL", 
+        "name": "Bradley International", 
+        "city": "Windsor Locks", 
+        "IATA": "BDL", 
+        "delay": "false", 
+        "state": "Connecticut", 
+        "weather": {
+          "wind": "Northwest at 3.5mph", 
+          "weather": "Mostly Cloudy", 
+          "meta": {
+            "url": "http://weather.gov/", 
+            "credit": "NOAA's National Weather Service", 
+            "updated": "4:51 PM Local"
+          }, 
+          "temp": "40.0 F (4.4 C)", 
+          "visibility": 10.0
+        }
       }
-    }
