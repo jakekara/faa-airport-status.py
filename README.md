@@ -24,9 +24,9 @@ These are the two command line tool examples:
   ```
 
 * getstatus - Get the the status of one airport and print to stdout. Usage:
-    python getstatus.py BDL
 
-```    
+```
+    python getstatus.py BDL
     {
       "status": {
         "minDelay": "", 
