@@ -20,7 +20,7 @@ file](https://github.com/jakekara/faa-airport-status.py/blob/master/airportstatu
 is the main point of interest. It performs API calls with the get_status()
 method. It's so short, I'll paste the entire code here:
 
-{% highlight python %}
+```
 import requests
 
 def status_url(code):
@@ -34,7 +34,7 @@ def get_status(code):
             raise Exception ("Error fetching status for airport " + code +
             ": <Status: " + str(r.status_code) + ">")
     return r.json()
-{% endhighlight %}
+```
 
 #### airports.py
 
@@ -49,15 +49,15 @@ These are the two command line tool examples:
 Get status of all airports in the airports.py list and save them to
 all.json. Here's the Usage:
 
-  {% highlight javascript %}
+```
   getall.py
-  {% endhighlight %}
+```
 
 #### getstatus.py
 
 Get the the status of one airport and print to stdout. Here's Usage:
 
-{% highlight javascript %}
+```
     getstatus.py BDL
     {
       "status": {
@@ -89,4 +89,4 @@ Get the the status of one airport and print to stdout. Here's Usage:
         "visibility": 10.0
       }
     }
-{% endhighlight %}
+```
